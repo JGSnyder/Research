@@ -1,4 +1,5 @@
 #!/bin/sh
+# Run command as sudo ./wirelesshaven_reqt.sh
 
 sudo -n true
 test $? -eq 0 || exit 1 "enter command with sudo privileges"
